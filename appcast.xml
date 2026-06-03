@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Warvideo Updates</title>
+    <link>https://warvideo.app/appcast.xml</link>
+    <description>Warvideo release feed</description>
+    <language>en</language>
+    <item>
+      <title>Warvideo 1.0</title>
+      <pubDate>Thu, 28 May 2026 21:40:27 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<p>Warvideo 1.0 release candidate. Signed, notarized, and ready for closed beta distribution.</p>
+      ]]></description>
+      <enclosure
+        url="https://warvideo.app/download/warvideo-1.0.dmg"
+        type="application/x-apple-diskimage"
+        sparkle:edSignature="InwON96WzgaiUq5eqA/puc7jbCi12cDMqfzP4sqpWVVVGQ3sa7MF4tAhxrFw0eXfWEUTIvd/UyT27Zc8N//TDg==" length="13578876" />
+    </item>
+  </channel>
+</rss>
