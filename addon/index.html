@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warvideo Companion — Add-on</title>
+  <meta name="description" content="Warvideo Companion is a tiny World of Warcraft add-on that keeps combat logging on so the Warvideo Mac app can automatically detect dungeons, raids, and bosses.">
+  <link rel="icon" href="../assets/warvideo-icon.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">Warvideo</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/support.html">Support</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="band-inner" style="display:flex;flex-direction:column;gap:16px;max-width:760px;">
+        <h1>Warvideo Companion</h1>
+        <p>
+          Warvideo Companion is a tiny World of Warcraft add-on. It does exactly
+          one thing: it keeps the game's <strong>advanced combat logging</strong>
+          turned on so the Warvideo Mac app can read the combat log and
+          automatically detect dungeons, raids, Mythic+ runs, and boss fights.
+          No orb, no overlay, no settings.
+        </p>
+        <p style="opacity:.85;">
+          Manual recording in Warvideo works without this add-on. The add-on is
+          only needed for automatic recording.
+        </p>
+
+        <article class="feature-card">
+          <h3>Download</h3>
+          <p>Latest version: 1.0.0 — compatible with World of Warcraft Retail.</p>
+          <p>
+            <a class="button primary" href="WarvideoCompanion.zip">Download WarvideoCompanion.zip</a>
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3>Install</h3>
+          <ol>
+            <li>Download and unzip <code>WarvideoCompanion.zip</code>.</li>
+            <li>Copy the <code>WarvideoCompanion</code> folder into your WoW
+              add-ons folder:
+              <br><code>World of Warcraft/_retail_/Interface/AddOns/</code></li>
+            <li>In game, type <code>/reload</code> (or restart WoW). You'll see
+              <em>"Combat logging enabled — automatic recording is ready."</em>
+              in chat.</li>
+            <li>Open Warvideo on your Mac — automatic recording is now active.</li>
+          </ol>
+        </article>
+
+        <p style="opacity:.7;font-size:13px;">
+          The add-on is open and minimal: it only calls the game's standard
+          <code>LoggingCombat</code> API and sets the
+          <code>advancedCombatLogging</code> option. It stores nothing and sends
+          nothing anywhere.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Warvideo</span>
+    <span>
+      Independent Mac software. Not affiliated with Blizzard Entertainment.
+      <a href="/privacy.html">Privacy</a>
+      <a href="/support.html">Support</a>
+    </span>
+  </footer>
+</body>
+</html>
