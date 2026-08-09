@@ -391,6 +391,11 @@ li::before {
   font-weight: 900;
 }
 
+/* Second store block in the same panel needs to breathe under the link above it. */
+.release-notes a + h3 {
+  margin-top: 24px;
+}
+
 .release {
   background: #161315;
   border-top: 1px solid var(--line);
