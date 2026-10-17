@@ -181,6 +181,10 @@ h1 {
   width: 100%;
 }
 
+.button.wide + .button.wide {
+  margin-top: 10px;
+}
+
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 132px));
